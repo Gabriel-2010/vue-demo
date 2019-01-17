@@ -1,6 +1,6 @@
 # Vue Demo
 
-## frontend
+## Folder explanation
 ```
-The frontend source code based on Vue framework
+frontend: The frontend source code based on Vue framework
 ```
