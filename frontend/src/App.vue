@@ -2,14 +2,25 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
-    <br/><br/>
-    <p>©Gabriel 2019 all rights reserved</p>
+    <br>
+    <br>
+    <p>©Gabriel {{ year }} all rights reserved</p>
   </div>
 </template>
 
+<script>
+export default {
+  data () {
+    return {
+      year: new Date().getFullYear()
+    }
+  }
+};
+</script>
+
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
