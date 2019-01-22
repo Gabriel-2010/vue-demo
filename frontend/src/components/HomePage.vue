@@ -1,16 +1,16 @@
 <template>
   <div class="hello">
-    <h1>{{ msg2 }}</h1>
+    <h1>{{ msg }}</h1>
     <h1><router-link to="/subpage">Go to Sub Page</router-link></h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld3',
+  name: 'HomePage',
   data () {
     return {
-      msg2: 'Welcome to Home Page'
+      msg: 'Welcome to Home Page'
     }
   }
 }
