@@ -12,6 +12,9 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "element-theme-default": "^1.4.13",
+    "element-ui": "^1.2.8",
+    "trezor-connect": "^6.0.3",
     "vue": "^2.5.21",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
